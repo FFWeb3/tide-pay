@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <style>
+    :root {
+      --wave-color: #09090b;
+      --shadow-color: rgba(9, 9, 11, 0.35);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --wave-color: #ffffff;
+        --shadow-color: rgba(255, 255, 255, 0.35);
+      }
+    }
+    .wave { fill: var(--wave-color); }
+    .shadow { fill: var(--shadow-color); }
+  </style>
+
+  <!-- Shadow / trough pixels -->
+  <rect x="8" y="16" width="4" height="4" class="shadow" />
+  <rect x="12" y="12" width="4" height="4" class="shadow" />
+  <rect x="8" y="20" width="4" height="4" class="shadow" />
+
+  <!-- Main crest pixels -->
+  <rect x="4" y="16" width="4" height="4" class="wave" />
+  <rect x="8" y="12" width="4" height="4" class="wave" />
+  <rect x="12" y="8" width="4" height="4" class="wave" />
+  <rect x="16" y="4" width="4" height="4" class="wave" />
+  <rect x="20" y="4" width="4" height="4" class="wave" />
+  <rect x="20" y="8" width="4" height="4" class="wave" />
+  <rect x="16" y="12" width="4" height="4" class="wave" />
+</svg>
+

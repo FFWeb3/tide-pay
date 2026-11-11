@@ -1,0 +1,24 @@
+{
+  "short_name": "Tide",
+  "name": "Tide: Non custodial yield aggregator for Nimiq Pay",
+  "description": "One place to put NIM and USDT to work at the best available rate, without ever handing over your keys.",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#2b493d"
+}
+

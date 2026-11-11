@@ -1,0 +1,29 @@
+export const CONTRACT_ADDRESSES = {
+  POLYGON: {
+    USDT: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+    AAVE_V3_POOL: '0x794a61358D6845594F94dc1DB02A252b5b4814aD',
+    A_USDT_TOKEN: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
+    COMPOUND_V3_USDT: '0xaeB318360f27748Acb200CE616E389A6C9409a07',
+  },
+  ARBITRUM: {
+    USDT: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
+    AAVE_V3_POOL: '0x794a61358D6845594F94dc1DB02A252b5b4814aD',
+    A_USDT_TOKEN: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
+  },
+  OPTIMISM: {
+    USDT: '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58',
+    AAVE_V3_POOL: '0x794a61358D6845594F94dc1DB02A252b5b4814aD',
+    A_USDT_TOKEN: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
+  },
+  BASE: {
+    USDC: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+    MORPHO_VAULT: '0xeE8F4eC5672F09119b96Ab6fB59C27E1b7e44b61',
+  },
+}
+
+export const INITIAL_CURRENCIES: Record<string, { rateAgainstUsd: number; prefix: string; symbol: string }> = {
+  USD: { rateAgainstUsd: 1, prefix: '$', symbol: 'USD' },
+  NGN: { rateAgainstUsd: 1349.07, prefix: '₦', symbol: 'NGN' },
+  EUR: { rateAgainstUsd: 0.8924, prefix: '€', symbol: 'EUR' },
+  KES: { rateAgainstUsd: 129.93, prefix: 'KSh ', symbol: 'KES' },
+}
